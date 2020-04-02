@@ -12,6 +12,6 @@ job('nodejs-job-dsl') {
         nodejs('nodejs')
     }
     steps {
-        shell(npm install)
+        shell("npm install")
     }
 }
