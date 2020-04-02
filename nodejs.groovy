@@ -5,7 +5,7 @@ job('nodejs-job-dsl') {
             node / gitConfigEmail('jenkins-dsl@do.com')
         }
     }
-    trigger {
+    triggers {
         scm('H/5 * * * *')
     }
     wrappers {
